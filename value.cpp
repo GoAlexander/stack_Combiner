@@ -5,7 +5,6 @@
 #include <cstdlib>
 using namespace std;
 
-//Переписывать для bin!
 
 //call this function if input value is dec
 void Value::setDecValue(int n) 
@@ -181,9 +180,8 @@ void Value::showBinValue()
 }
 
 //sign ==0 -> +, sign ==1 -> 1
-void Value::decToBin(int sign)//int?? должна отдавать ссылку! проверить саму идею!
+void Value::decToBin(int sign)
 {
-	//RETHINK???
 	//TODO Make it more simple???
 	
 	int decval_tmp=decval;

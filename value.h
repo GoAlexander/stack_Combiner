@@ -3,8 +3,9 @@
 #include <iterator>
 #include <string>
 #include <cstdlib>
-using namespace std; //???
+using namespace std;
 
+//TODO make some functions private
 class Value
 {
 public:
