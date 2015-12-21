@@ -26,3 +26,8 @@
 *.exe
 *.out
 *.app
+
+# Another
+/bin
+/old_versions
+MYNOTES.txt
